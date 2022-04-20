@@ -1,0 +1,48 @@
+.NavBar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+.NavBar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.NavBar ul li{
+    list-style: none;
+    color: black;
+    margin: 30px;
+}
+.NavBar button{
+    border-radius: 50px;
+    margin: 25px;
+    padding: 20px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+.NavBar div{
+    display: flex;
+    flex-direction: row;
+}
+
+.NavBar img {
+    width: 8rem;
+}
+
+.NavBar ul li:hover{
+    color: blueviolet;
+}
+
+.logo {   
+    width: 7rem;
+    margin-left: 50px;
+}
